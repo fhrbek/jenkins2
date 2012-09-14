@@ -1,0 +1,23 @@
+{
+  "metaVersion": "1.1.6",
+  "accessKey": "cloudsmith",
+  "puppetVersion": "PUPPET27",
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "nodes": [
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-aecd60c7",
+          "role": "jenkinsserver",
+          "name": "jenkins"
+        }
+      ],
+      "name": "production"
+    }
+  ]
+}

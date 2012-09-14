@@ -1,0 +1,3 @@
+class jenkinsserver {
+  include 'jenkins'
+}
