@@ -14,7 +14,7 @@
           "deployState": "RUNNING",
           "image": "ami-aecd60c7",
           "role": "jenkinsserver",
-          "name": "jenkins"
+          "name": "myjenkins"
         }
       ],
       "name": "production"
