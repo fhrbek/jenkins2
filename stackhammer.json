@@ -33,6 +33,19 @@
         }
       ],
       "name": "jenkins_201209142216"
+    },
+    {
+      "rakeFile": "Rakefile",
+      "rakeTask": "myjenkins_201209142239",
+      "facts": "facts/myjenkins_201209142239.json",
+      "reformatResults": false,
+      "outputs": [
+        {
+          "location": "spec/reports/hosts/myjenkins_201209142239",
+          "name": "myjenkins"
+        }
+      ],
+      "name": "myjenkins_201209142239"
     }
   ]
 }
